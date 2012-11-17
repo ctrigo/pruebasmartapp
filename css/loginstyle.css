@@ -1,0 +1,28 @@
+#contenedor{
+	width: 100%;
+	-webkit-border-radius: 10px;
+	height:100%;
+	background-color: black;
+	margin-top: 20%;
+	
+}
+
+#formulario{
+	font-size:smaller;
+	font-family:"Trebuchet MS";
+	-webkit-border-radius: 10px;
+	background-color:transparent;
+	border-color: black;
+	position:absolute;
+	left:40%;
+}
+
+.input{
+	-webkit-border-radius: 10px;	
+}
+
+#olvido{
+	color: black;
+	font-size:smaller;
+	font-family:"Trebuchet MS"; 
+}
