@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>SMARTapp</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style type="text/css" media="screen">@import url("../css/style.css");</style>
+		<style type="text/css" media="screen">@import url("../css/editarusuariostyle.css");</style>
+		<link  rel="shortcut icon" href="../img/logoSMARTappDer.png" type="image/x-icon" />
+	</head>
+
+<body style="position: relative;">
+
+	<div id="contenedor">
+		
+		<div id="encabezado">
+			
+			<div id="buscador" align="center">
+				<img id="imagen" src="../img/logoSMARTappDer.png" />
+				<form class="input" id="formularioBusqueda" name="busqueda" action="" method="post">
+				<br><br>Ingrese su Busqueda:&nbsp;<input class="input" type="text" name="busqueda" value="">
+				<input type="submit" value="Ok">
+				</form>
+			</div>
+			
+			<div id="sesion" align="center">
+				<br><a href="login.html" class="links">Cerrar Sesion</a><br>
+				<a href="editarUsuario.html" class="links">Editar Perfil</a>
+			</div>
+			
+		</div>
+	
+		
+		<div id="subcontenedor">
+			
+			<div id="lateralIzquierdo">
+				Filtros de búsqueda <br>
+    				<input type="radio" value="gondola" name="filtro" />Góndola<br>
+    				<input type="radio" value="tipoProducto" name="filtro" />Tipo de producto<br>
+    				<input type="radio" value="categoria" name="filtro" />Categoría<br><br>
+
+				<a class="links" href="crearOferta.html">Crear Oferta</a><br>
+				<a class="links" href="ofertas.html">Ver Ofertas</a><br><br>
+				
+				<a class="links" href="vistaSuper.html">Supermercado</a><br><br>
+
+				<a class="links" href="adminUsuarios.html">Administración de usuarios</a><br><br>
+
+				<a class="links" href="reportes.html">Reportes</a><br><br>
+
+			</div>
+			
+			<div id="contenedorCentral">
+				
+				<div id="foto" align="center">
+					<img id="fotoUsuario" src="../img/logoSMARTappDer.png" />
+					Cambiar Imagen
+				</div>
+				
+				<div id="form" align="left">
+					
+					<form id="formularioUsuario" name="login" action="" method="post">
+						<table>
+							<tr>
+								<td>Nombre:</td>
+								<td><input class="input" type="text" name="name" value=""></td>
+							</tr>
+							<tr>
+								<td>Apellido:</td>
+								<td><input class="input" type="text" name="surname" value=""></td>
+							</tr>
+							<tr>
+								<td>Usuario:</td>
+								<td><input class="input" type="text" name="user" value=""></td>
+							</tr>
+							<tr>
+								<td>Tipo de Usuario:</td>
+								<td><input class="input" type="text" name="type" value=""></td>
+							</tr>
+							<tr>
+								<td>Mail:</td>
+								<td><input class="input" type="email" name="mail" value=""></td>
+							</tr>
+							<tr>
+								<td>Contrasena:</td>
+								<td><input class="input" type="password" name="pass" value=""></td>
+							</tr>
+							<tr>
+								<td>Nueva Contrasena:</td>
+								<td><input class="input" type="password" name="newpass" value=""></td>
+							</tr>
+							<tr>
+								<td>Activo&nbsp;<input class="input" type="radio" name="activo" checked="checked"></td>
+								<td>Inactivo&nbsp;<input class="input" type="radio" name="activo"></td>
+							</tr>
+						</table>
+						<br><input type="submit" value="Ok">
+						<input type="reset" value="Cancelar"/>
+					</form> 
+					
+				</div>
+				
+			</div>
+			
+			<div id="lateralDerecho">
+			&nbsp;
+			</div>
+			
+		</div>
+				
+	</div>
+
+</body>
+
+</html>

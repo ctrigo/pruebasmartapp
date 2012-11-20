@@ -1,0 +1,93 @@
+#contenedor{
+	width: 100%;
+	-webkit-border-radius: 10px;
+	height:100%;
+	background-color: #F5F5F5;
+}
+
+#encabezado{
+	-webkit-border-top-left-radius:10px;
+	-webkit-border-top-right-radius:10px;
+	color: black;
+	font-size:smaller;
+	font-family:"Trebuchet MS";
+	float: left; 
+	width: 100%;
+	height: 30%;
+	padding-bottom: 5%;
+	background-color: #F5F5F5;
+}
+	
+	#buscador{
+		float: left;
+		width: 79%;
+		height: 100%;
+		background-color: #F5F5F5;
+		-webkit-border-top-left-radius:10px;
+		padding-left: 1%; 
+		padding-top: 1%; 
+	}
+	
+	#imagen{
+		float: left;
+		width: 8%; 
+		height: 30%;
+		-webkit-border-radius: 10px;
+	}
+
+	
+	#sesion{
+		float: left;
+		width:20%;
+		height: 100%;
+		background-color: #F5F5F5;
+		-webkit-border-top-right-radius:10px;
+	}
+
+#subcontenedor{
+	-webkit-border-bottom-left-radius:10px;
+	-webkit-border-bottom-right-radius:10px;
+	float: left;
+	width: 100%;
+	height: 70%;
+	background-color: #F5F5F5;
+}
+
+	#lateralIzquierdo{
+		-webkit-border-bottom-left-radius:10px;
+		float: left;
+		width: 23%;
+		height: 95%;
+		padding-top: 2%;
+		padding-left: 2%;
+		font-size:smaller;
+		font-family:"Trebuchet MS";
+	}
+	
+	#contenedorCentral{
+		float: left;
+		height: 100%;
+		width: 68%;
+		background-color: #F5F5F5;
+	}
+	
+		
+			
+	#lateralDerecho{
+		-webkit-border-bottom-right-radius:10px;
+		float: left;
+		height: 100%;
+		width: 7%;
+	}
+	
+
+.input{
+	-webkit-border-radius: 8px;	
+}
+
+.links{
+	color: black;
+	font-size:small;
+	font-family:"Trebuchet MS"; 
+	text-decoration: none;
+}

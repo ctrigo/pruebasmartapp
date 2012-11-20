@@ -1,0 +1,29 @@
+#foto{
+	float: left;
+	width: 17%;
+	height: 100%;
+	padding-left:3%;
+	padding-top: 5%;
+	-webkit-border-radius: 10px;
+	font-size:smaller;
+	font-family:"Trebuchet MS";
+}
+		
+	#fotoUsuario{
+		-webkit-border-radius: 10px;
+		width: 100%;
+		height: 40%;
+	}
+
+#form{
+	padding-top: 7%;
+	padding-bottom: 20%;
+	width: 75%;
+	float: left;
+	padding-left: 5%;
+}
+		
+	#formularioUsuario{
+		font-size:smaller;
+		font-family:"Trebuchet MS";
+	}

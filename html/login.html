@@ -2,21 +2,44 @@
 <html>
 
 	<head>
-		<title>Login</title>
+		<title>SMARTapp Login</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<style type="text/css" media="screen">@import url("../css/loginstyle.css");</style>
+		<link  rel="shortcut icon" href="../img/logoSMARTappDer.png" type="image/x-icon" />
 	</head>
 
-<body style="position: relative; background-color:#F5F5F5">
-
+<body style="position: relative; background-color:#F5F5F5" >
+	
 	<div id="contenedor">
-		<form id="formulario" name="login" action="" method="post">
-		Usuario:&nbsp;<input class="input" type="text" name="user" value=""><br>
-		Constrasena:&nbsp;<input class="input" type="password" name="password"><br><br>
-		<input type="submit" value="Ok">
-		<input type="reset" value="Cancelar"/><br>
-		<a id="olvido" href="mailto:">Olvido su contrasena?</a>
-		</form> 
+
+		<div id="logo" align="center">
+			
+			<img id="imagen" src="../img/logoSMARTappDer.png"/>
+			
+		</div>
+	 
+		<div id="formularioLogin" align="center">
+
+			<form id="formulario" name="login" action="" method="post">
+				
+				<table>
+					<tr>
+						<td>Usuario:</td>
+						<td><input class="input" type="text" name="user" value=""></td>
+					</tr>
+					<tr>
+						<td>Constrasena:</td>
+						<td><input class="input" type="text" name="pass" value=""></td>
+					</tr>
+				</table>
+				
+				<input type="submit" value="Ok">
+				<input type="reset" value="Cancelar"/><br>
+				<a id="olvido" href="mailto:">Olvido su contrasena?</a>
+			</form>
+			
+		</div>
+	
 	</div>
 
 </body>

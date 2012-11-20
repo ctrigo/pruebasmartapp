@@ -2,19 +2,18 @@
 	width: 100%;
 	-webkit-border-radius: 10px;
 	height:100%;
-	background-color: black;
-	margin-top: 20%;
-	
+	margin-top: 10%;
+	border:10px;
+	background-color: red;
 }
 
 #formulario{
 	font-size:smaller;
 	font-family:"Trebuchet MS";
 	-webkit-border-radius: 10px;
-	background-color:transparent;
-	border-color: black;
+	border:10px;
 	position:absolute;
-	left:40%;
+
 }
 
 .input{
@@ -24,5 +23,28 @@
 #olvido{
 	color: black;
 	font-size:smaller;
-	font-family:"Trebuchet MS"; 
+	font-family:"Trebuchet MS";
+	text-decoration: none; 
+}
+
+#logo{
+	-webkit-border-radius: 10px;
+	width:30%; 
+	height:30%;
+	float: left;
+	padding-left: 30%;
+}
+
+#formularioLogin{
+	float: left;
+	width: 60%;
+	height:15%;
+	padding-left: 36%;
+	padding-top: 2%;	
+}
+
+#imagen{
+	width: 60%;
+	height: 100%;
+	-webkit-border-radius: 10px;
 }

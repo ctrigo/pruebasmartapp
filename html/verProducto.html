@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>SMARTapp</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<style type="text/css" media="screen">@import url("../css/style.css");</style>
+		<style type="text/css" media="screen">@import url("../css/productostyle.css");</style>
+		<link  rel="shortcut icon" href="../img/logoSMARTappDer.png" type="image/x-icon" />
+	</head>
+
+<body style="position: relative;">
+
+	<div id="contenedor">
+		
+		<div id="encabezado">
+			
+			<div id="buscador" align="center">
+				<img id="imagen" src="../img/logoSMARTappDer.png" />
+				<form class="input" id="formularioBusqueda" name="busqueda" action="" method="post">
+				<br><br>Ingrese su Busqueda:&nbsp;<input class="input" type="text" name="busqueda" value="">
+				<input type="submit" value="Ok">
+				</form>
+			</div>
+			
+			<div id="sesion" align="center">
+				<br><a href="login.html" class="links">Cerrar Sesion</a><br>
+				<a href="editarUsuario.html" class="links">Editar Perfil</a>
+			</div>
+			
+		</div>
+	
+		
+		<div id="subcontenedor">
+			
+			<div id="lateralIzquierdo">
+				Filtros de búsqueda <br>
+    				<input type="radio" value="gondola" name="filtro" />Góndola<br>
+    				<input type="radio" value="tipoProducto" name="filtro" />Tipo de producto<br>
+    				<input type="radio" value="categoria" name="filtro" />Categoría<br><br>
+
+				<a class="links" href="crearOferta.html">Crear Oferta</a><br>
+				<a class="links" href="ofertas.html">Ver Ofertas</a><br><br>
+				
+				<a class="links" href="vistaSuper.html">Supermercado</a><br><br>
+
+				<a class="links" href="adminUsuarios.html">Administración de usuarios</a><br><br>
+
+				<a class="links" href="reportes.html">Reportes</a><br><br>
+
+			</div>
+			
+			<div id="contenedorCentral" >
+				
+				<div id="contendorDescripcion">
+					
+					<div id="fotoProducto">
+						<img id="photo" src="../img/logoSMARTappDer.png">
+					</div>
+					
+					<div id="descripcionProducto">
+						
+						<div id="descripcion">
+							<h2>VINO CARMENERE MARQUEZ CASA DE CONCHA</h2>
+							<h6>codigo de caja: 340958</h6>
+						</div>
+						
+						<div id="ubicacion">
+							<div id="ubicacionProducto">
+								<table>
+									<tr>
+										<td class="cols">Gondola:</td>
+										<td class="cols">g1</td>
+									</tr>
+									<tr>
+										<td class="cols">Estante:</td>
+										<td class="cols">e4</td>
+									</tr>
+									<tr>
+										<td class="cols">ID Producto:</td>
+										<td class="cols">43</td>
+									</tr>
+								</table>
+							</div>
+							
+							<div id="precio" align="center">
+								<h1>$349</h1>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					
+					
+				</div>
+				
+				<div id="ofertaRapida" align="center">
+					<table id="tablaOfertas" cellpadding="7" bordercolor="#4682B4"  >
+						<tr>
+							<th class="tituloCols" align="center">Oferta</th>
+							<th class="tituloCols" align="center">Estado</th>
+							<th class="tituloCols" align="center">Fin</th>
+							<th class="tituloCols" align="center">$ Precio</th>
+							<th class="tituloCols" align="center">% Descuento</th>
+							<th class="tituloCols" align="center">Comienzo</th>
+						</tr>
+						
+			<!-- ACA HAY QUE ITERAR ESTA FILA CON SUS COLUMNAS PONIENDO UN MAXIMO DE N FILAS -->
+								<!-- ESTE ES SOLO UN EJEMPLO -->
+								
+						<tr>
+							<td class="cols" align="center">Fiesta Alemana</td>
+							<td class="cols" align="center">Activo</td>
+							<td class="cols" align="center">10/10/2012</td>
+							<td class="cols" align="center">200</td>
+							<td class="cols" align="center">20</td>
+							<td class="cols" align="center">10/09/2012</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			
+			<div id="lateralDerecho">
+			&nbsp;
+			</div>
+			
+		</div>
+				
+	</div>
+
+</body>
+
+</html>
