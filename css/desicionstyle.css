@@ -51,17 +51,34 @@
 				float: left;
 				width: 50%;
 				height: 100%;
+			}
+			
+			.precioestilo{
 				font-size:18px;
 				font-family:"Trebuchet MS";
 				color: #4682B4;
 			}
 		
-#ofertaRapida{
+#propuestaOferta{
 	width: 100%;
 	height: 40%;
 	float: left;
 	background-color: #FFFFFF;
 }
+
+	#duracion{
+		width: 70%;
+		height: 100%;
+		float: left;
+		padding-bottom: 11%;
+	}
+	
+	#desicion{
+		width: 30%;
+		height: 100%;
+		float: left;
+		padding-top: 10%;
+	}
 
 	.tituloCols{
 		font-size:small;

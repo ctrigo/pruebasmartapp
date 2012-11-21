@@ -5,6 +5,7 @@
 		<title>SMARTapp</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<style type="text/css" media="screen">@import url("../css/style.css");</style>
+		<style type="text/css" media="screen">@import url("../css/reportecrearstyle.css");</style>
 		<link  rel="shortcut icon" href="../img/logoSMARTappDer.png" type="image/x-icon" />
 	</head>
 
@@ -50,7 +51,45 @@
 			</div>
 			
 			<div id="contenedorCentral" >
-			
+				<div id="reporte">
+					<form class="input" id="formularioReporte" name="reporte" action="" method="post">
+						<table>
+							<tr>
+								<td class="cols">Titulo del Reporte:</td>
+								<td><input class="input" type="text" name="reportname" value=""></td>
+							</tr>
+							<tr>
+								<td class="cols">Fecha Incio:</td>
+								<td><input class="input" type="date" name="date1" value=""></td>
+							</tr>
+							<tr>
+								<td class="cols">Fecha Fin:</td>
+								<td><input class="input" type="date" name="date2" value=""></td>
+							</tr>
+							
+				<!-- ESTAS DOS OPCIONES SON EXCLUSIVAS: O UNA O EN LA OTRA -->							
+							<tr>
+								<td class="cols">De todos los productos entre estas fechas:</td>
+								<td><input class="input" type="checkbox" name="all" value=""></td>
+							</tr>
+							<tr>
+								<td class="cols">Elegir Productos entre estas fechas:</td>
+								<td><select id="selection" multiple="multiple" >
+									<option value="1">Oferta Pampers 2x1</option>
+									<option value="2">Oferta Coca Cola Pack Familiar</option>
+									<option value="3">Oferta Atun Calvo 20%OFf</option>
+									<option value="4">Oferta Fiesta Alemana</option>
+								</select></td>
+							</tr>
+							</table>
+							<br>
+							<input type="submit" value="Aceptar">
+							<input type="reset" value="Cancelar"/>
+							<h6 class="realizadoPor">Realizado por: rasturion - MKTG</h6>
+					</form>
+					
+				</div>
+				
 			</div>
 			
 			<div id="lateralDerecho">
