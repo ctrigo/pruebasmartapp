@@ -1,0 +1,28 @@
+#reporte1{
+	width: 100%;
+	height: 18%;
+	float: left;
+}
+
+#contenidoReporte{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+#estado{
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+	.tituloCols{
+		font-size:small;
+		font-family:"Trebuchet MS";
+		color: #4682B4;
+	}
+	
+	.cols{
+		font-size:smaller;
+		font-family:"Trebuchet MS";
+	}
