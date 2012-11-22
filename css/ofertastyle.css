@@ -1,4 +1,4 @@
-#reporte1{
+#oferta1{
 	width: 100%;
 	height: 18%;
 	float: left;
@@ -6,7 +6,7 @@
 	border-bottom:1px solid #d0d0d0;
 }
 
-#creacion{
+#buscarOfertas{
 	background-color: #FFFFFF;
 	padding-left: 3%;
 	-webkit-border-radius: 8px;
@@ -16,11 +16,8 @@
 	padding-bottom: 0.2%;
 }
 
-#crearReporte{
-	float: right;
-}
 
-#contenidoReporte{
+#contenidoOferta{
 	width: 70%;
 	height: 100%;
 	float: left;
@@ -46,7 +43,7 @@
 /*ESTOS ESTILOS SON REPETIDOS DEL REPORTE1. 
  *DESPUES SACARLOS!!!!!!*/
 
-#reporte2{
+#oferta2{
 	width: 100%;
 	height: 18%;
 	float: left;
@@ -55,7 +52,7 @@
 	background-color: white;
 }
 	
-#contenidoReporte2{
+#contenidoOferta2{
 	width: 70%;
 	height: 100%;
 	float: left;

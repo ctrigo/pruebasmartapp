@@ -1,17 +1,17 @@
-#reporte{
+#oferta{
 	width: 100%;
 	height: 100%;
 	float: left;
 	padding-top: 3%;
 	padding-left: 13%;
-	padding-bottom: 15%;
+	padding-bottom: 11.5%;
 }
 
 	.tituloCols{
 		font-size:small;
 		font-family:"Trebuchet MS";
 		color: #4682B4;
-		padding-left:15%;
+		padding-left:12%;
 		padding-bottom: 2%;
 	}
 	

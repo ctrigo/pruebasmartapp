@@ -53,7 +53,11 @@
 			<div id="contenedorCentral" >
 			<!--ESTE DIV SE DEBE REPETIR 6 VECES-->	
 				<div id="creacion">
-					<button id="crearReporte"> Crear Reporte</button>
+					<a href="reportes.html" class="links"> <img src="../img/primeras.png" /> </a>
+					<a href="reportes.html" class="links"> <img src="../img/anteriores.png" /> </a>
+					<a href="reportes.html" class="links"> <img src="../img/siguientes.png" /> </a>
+					<a href="reportes.html" class="links"> <img src="../img/ultimas.png" /> </a>
+					<button id="crearReporte" onclick="location.href='crearReporte.html'"> Crear Reporte</button>
 				</div>
 				<div id="reporte1" >
 					
@@ -75,6 +79,29 @@
 					</div>
 					
 				</div>
+				
+	<!-- HICE ESTE DIV PARA VER COMO QUEDABAN DE DISTINTOS COLORES-->			
+				<div id="reporte2" >
+					
+					<div id="contenidoReporte2">
+						<table id="descripcionReporte2" cellpadding="9">
+							<tr>
+								<td class="cols">Titulo del Reporte: Noviembre2012</td>
+								<td class="cols">Realizado Por: rasturion</td>
+							</tr>
+							<tr>
+								<td class="cols">Desde: 1/11/2012</td>
+								<td class="cols">Hasta: 30/11/2012</td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="estado2" class="tituloCols" align="center">
+						<br><br><button id="ver2">Ver</button>
+					</div>
+					
+				</div>
+	<!-- PERO PARA CUANDO SE ITERE SE TIENE QUE SACAR -->
 			</div>
 			
 			<div id="lateralDerecho">

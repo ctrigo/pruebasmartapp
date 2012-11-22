@@ -5,6 +5,7 @@
 		<title>SMARTapp</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<style type="text/css" media="screen">@import url("../css/style.css");</style>
+		<style type="text/css" media="screen">@import url("../css/crearofertastyle.css");</style>
 		<link  rel="shortcut icon" href="../img/logoSMARTappDer.png" type="image/x-icon" />
 	</head>
 
@@ -50,7 +51,55 @@
 			</div>
 			
 			<div id="contenedorCentral" >
-			
+				<div id="oferta">
+					<h2 class="tituloCols">Nuevo Oferta</h2>
+					<form class="input" id="formularioOferta" name="reporteOferta" action="" method="post">
+						<table>
+							<tr>
+								<td class="cols">Producto:</td>
+								<td><select id="selection">
+										<option value="1">Ketchup Heinz</option>
+										<option value="2">Ketchup Hellmans</option>
+										<option value="3">Ketchup Sabora</option>
+									</select>
+								</td>
+							</tr>
+							<tr>
+								<td class="cols">Fecha Incio:</td>
+								<td><input class="input" type="date" name="date1" value=""></td>
+							</tr>
+							<tr>
+								<td class="cols">Hora Inicio:</td>
+								<td><input class="input" type="date" name="time1" value=""></td>
+							</tr>
+							<tr>
+								<td class="cols">Fecha Fin:</td>
+								<td><input class="input" type="date" name="date2" value=""></td>
+							</tr>
+							<tr>
+								<td class="cols">Hora Fin:</td>
+								<td><input class="input" type="date" name="time2" value=""></td>
+							</tr>
+							<tr>
+								<td class="cols">Precio Actual:</td>
+								<td>$20</td>
+							</tr>
+							<tr>
+								<td class="cols">Porcentaje Descuento:</td>
+								<td><input class="input" type="text" name="porcdescuento" value=""></td>
+							</tr>
+							<tr>
+								<td class="cols">Precio Descuento:</td>
+								<td><input class="input" type="text" name="precdescuento" value=""></td>
+							</tr>
+							</table>
+							<br>
+							<input type="submit" value="Enviar Solicitud">
+							<input type="reset" value="Cancelar"/>
+							<h6 class="realizadoPor">Realizado por: sgonzalez - COMPRAS</h6>
+					</form>
+					
+				</div>
 			</div>
 			
 			<div id="lateralDerecho">
