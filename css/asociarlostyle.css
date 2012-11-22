@@ -1,0 +1,78 @@
+#asociar{
+	width: 85%;
+	height: 40%;
+	float: left;
+	padding-left: 15%;
+	font-size:smaller;
+	font-family:"Trebuchet MS";
+	-webkit-border-radius: 10px;
+	border-bottom:1px solid #d0d0d0;
+}
+
+#busqueda{
+	width: 85%;
+	height: 60%;
+	float: left;
+	padding-left: 15%;
+	-webkit-border-radius: 10px;
+	border-bottom:1px solid #d0d0d0;
+}
+
+	#buscadorProducto{
+		width: 100%;
+		height: 15%;
+		float: left;
+		font-size:smaller;
+		font-family:"Trebuchet MS";
+	}
+	
+	#producto{
+		width: 100%;
+		height: 75%;
+		float: left;
+		font-size:smaller;
+		font-family:"Trebuchet MS";
+	}
+	
+		#fotoBusqueda{
+			float: left;
+			width: 13%;
+			height: 100%;
+			padding-left:3%;
+			padding-top: 2%;
+			-webkit-border-radius: 10px;
+			font-size:smaller;
+			font-family:"Trebuchet MS";
+		}
+				
+			#fotoProd{
+				-webkit-border-radius: 10px;
+				width: 100%;
+				height: 40%;
+			}
+		
+		#contenedorProducto{
+			float: left;
+			width: 80%;
+			height: 100%;
+			padding-top: 5%;
+		}	
+	
+	#aceptar{
+		width: 100%;
+		float: right;
+		height: 10%;
+		padding-top: 3%;
+		padding-bottom: 10%;
+	}
+	
+.tituloCols{
+	font-size:small;
+	font-family:"Trebuchet MS";
+	color: #4682B4;
+}
+
+.cols{
+	font-size:smaller;
+	font-family:"Trebuchet MS";
+}

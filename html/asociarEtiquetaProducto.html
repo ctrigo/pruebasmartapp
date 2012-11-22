@@ -5,6 +5,7 @@
 		<title>SMARTapp</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<style type="text/css" media="screen">@import url("../css/style.css");</style>
+		<style type="text/css" media="screen">@import url("../css/asociarlostyle.css");</style>
 		<link  rel="shortcut icon" href="../img/logoSMARTappDer.png" type="image/x-icon" />
 	</head>
 
@@ -49,7 +50,53 @@
 			</div>
 			
 			<div id="contenedorCentral" >
-			
+				
+				<div id="asociar">
+					<h1>Asociacion de Etiqueta - Producto</h1><br>
+					<table cellpadding="5">
+						<tr>
+							<td>Gondola:</td>
+							<td><input class="input" type="text" /></td>
+							<td>ID Etiqueta:</td>
+							<td><input class="input" type="text" /><img src="../img/add.png" /></td>
+						</tr>
+						<tr>
+							<td>Estante:</td>
+							<td><input class="input" type="text" /></td>
+						</tr>
+					</table>
+					
+				</div>
+				
+				<div id="busqueda">
+					<div id="buscadorProducto">
+						<form class="input" id="formularioAsociacion" name="busquedaProd" action="" method="post">
+							<br><br>Busque el Producto:&nbsp;<input class="input" type="search" name="busProd" value="">
+							<input type="submit" value="Ok">
+						</form>
+					</div>
+					<div id="producto">
+						<div id="fotoBusqueda">
+							<img id="fotoProd" src="../img/logoSMARTappDer.png" />
+						</div>
+						<div id="contenedorProducto">
+							<table>
+								<tr>
+									<td class="tituloCols">VINO CARMENERE MARQUEZ CASA DE CONCHA</td>
+								</tr>
+								<tr>
+									<td class="cols">Código de caja: 127890</td>
+									<td class="tituloCols">$632</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+					</div>
+					<div id="aceptar">
+						<button id="accept">Asociar</button>
+					</div>
+				
+				
 			</div>
 			
 			<div id="lateralDerecho">
