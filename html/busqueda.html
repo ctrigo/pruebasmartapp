@@ -5,6 +5,7 @@
 		<title>SMARTapp</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<style type="text/css" media="screen">@import url("../css/style.css");</style>
+		<style type="text/css" media="screen">@import url("../css/busquedastyle.css");</style>
 		<link  rel="shortcut icon" href="../img/logoSMARTappDer.png" type="image/x-icon" />
 	</head>
 
@@ -17,7 +18,7 @@
 			<div id="buscador" align="center">
 				<img id="imagen" src="../img/logoSMARTappDer.png" />
 				<form class="input" id="formularioBusqueda" name="busqueda" action="" method="post">
-				<br><br>Ingrese su Busqueda:&nbsp;<input class="input" type="text" name="busqueda" value="">
+				<br><br>Ingrese su Busqueda:&nbsp;<input class="input" type="search" name="busqueda" value="">
 				<input type="submit" value="Ok">
 				</form>
 			</div>
@@ -50,7 +51,41 @@
 			</div>
 			
 			<div id="contenedorCentral" >
-			
+				
+				<div id="buscarProductos">
+						<input type="checkbox" />&nbsp;&nbsp;
+						<a href="busqueda.html" class="links"> <img src="../img/primeras.png" /> </a>
+						<a href="busqueda.html" class="links"> <img src="../img/anteriores.png" /> </a>
+						<a href="busqueda.html" class="links"> <img src="../img/siguientes.png" /> </a>
+						<a href="busqueda.html" class="links"> <img src="../img/ultimas.png" /> </a>
+						<button id="crearReporte" onclick="location.href='crearOferta.html'"> Crear Oferta</button>
+					</div>
+					<div id="producto1" >
+					
+					<div id="productoChecked1">
+						<input type="checkbox" />
+					</div>
+					
+					<div id="fotoP1">
+						<img id="photoP1" src="../img/logoSMARTappDer.png">	
+					</div>
+					
+					<div id="contenidoProducto1">
+						<table id="descripcionProducto1" cellpadding="9">
+							<tr>
+								<td class="cols">Descripcion Producto: Mayonesa Hellmans 50gr.</td>
+								<td class="cols"><button id="verProducto" onclick="location.href='verProducto.html'">Ver</button></td>
+								<td class="cols"><button id="verUbicacion" onclick="location.href='vistaSuper.html'">Ubicacion</button></td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="estadoProducto1" class="tituloCols" align="center">
+						EN OFERTA!!<br><br>
+					</div>
+					
+				</div>
+				
 			</div>
 			
 			<div id="lateralDerecho">

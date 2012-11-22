@@ -18,7 +18,7 @@
 			<div id="buscador" align="center">
 				<img id="imagen" src="../img/logoSMARTappDer.png" />
 				<form class="input" id="formularioBusqueda" name="busqueda" action="" method="post">
-				<br><br>Ingrese su Busqueda:&nbsp;<input class="input" type="text" name="busqueda" value="">
+				<br><br>Ingrese su Busqueda:&nbsp;<input class="input" type="search" name="busqueda" value="">
 				<input type="submit" value="Ok">
 				</form>
 			</div>
@@ -56,49 +56,41 @@
 						<a href="ofertas.html" class="links"> <img src="../img/anteriores.png" /> </a>
 						<a href="ofertas.html" class="links"> <img src="../img/siguientes.png" /> </a>
 						<a href="ofertas.html" class="links"> <img src="../img/ultimas.png" /> </a>
+						<button id="crearReporte" onclick="location.href='crearReporte.html'"> Crear Reporte</button>
 					</div>
 					<div id="oferta1" >
-						
-						<div id="contenidoOferta">
-							<table id="descripcionOferta" cellpadding="9">
-								<tr>
-									<td class="tituloCols">OFERTA</td>
-									<td class="cols">Producto: Papas Lays 500gr</td>
-								</tr>
-								<tr>
-									<td class="cols">Hecho por: jgimenez</td>
-									<td class="cols">Fecha de Peticion: 2/12/2012</td>
-								</tr>
-							</table>
-						</div>
-						
-						<div id="estado" class="tituloCols" align="center">
-							<br><br><button id="ver">Ver</button>
-						</div>
-						
+					
+					<div id="ofertaChecked1">
+						<input type="checkbox" />
 					</div>
-	<!-- HICE ESTE DIV PARA VER COMO QUEDABAN DE DISTINTOS COLORES-->					
-					<div id="oferta2" >
-						
-						<div id="contenidoOferta2">
-							<table id="descripcionOferta2" cellpadding="9">
-								<tr>
-									<td class="tituloCols">OFERTA</td>
-									<td class="cols">Producto: Oreo x3</td>
-								</tr>
-								<tr>
-									<td class="cols">Hecho por: sgonzalez</td>
-									<td class="cols">Fecha de Peticion: 30/11/2012</td>
-								</tr>
-							</table>
-						</div>
-						
-						<div id="estado2" class="tituloCols" align="center">
-							<br><br><button id="ver2">Ver</button>
-						</div>
-						
+					
+					<div id="fotoO1">
+						<img id="photoO1" src="../img/logoSMARTappDer.png">	
 					</div>
-	<!-- PERO PARA CUANDO SE ITERE SE TIENE QUE SACAR -->				
+					
+					<div id="contenidoOferta1">
+						<table id="descripcionOferta1" cellpadding="9">
+							<tr>
+								<td class="cols">Descripcion Producto: Mayonesa Hellmans 50gr.</td>
+								<td class="cols">Desde: 3/10/2012</td>
+							</tr>
+							<tr>
+								<td class="cols">Precio Actual: $20</td>
+								<td class="cols">Hasta: 13/10/2012</td>
+							</tr>
+							<tr>
+								<td class="cols">Precio Anterior: $30</td>
+								<td class="cols"> </td>
+							</tr>
+						</table>
+					</div>
+					
+					<div id="estadoOferta1" class="tituloCols" align="center">
+						ACTIVA<br><br>
+					</div>
+					
+				</div>
+			
 			</div>
 			
 			<div id="lateralDerecho">
